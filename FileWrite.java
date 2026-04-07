@@ -7,7 +7,7 @@ public class FileWrite
       try 
       { 
          FileWriter fw = new FileWriter("results.txt"); 
-         fw.write("hellos mellos"); 
+         fw.write("hellos mellos tellos"); 
          fw.close(); 
          System.out.println("\nContent written to the file successfully."); 
       } 
