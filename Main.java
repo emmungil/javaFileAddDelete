@@ -90,10 +90,14 @@ public class Main {
 
         String burc = burcHesapla(gun, ay); 
 
-         
+         int uretilengun = MetodVeriAktarimi.rastgelegunUret();
+         int uretilenay = MetodVeriAktarimi.rastgeleayUret();
 
         // Sonucu göster 
-
+         System.out.println("Üretilen Gün: "+uretilengun); 
+         System.out.println("Üretilen Ay: "+uretilenay); 
+         String otoburc = burcHesapla(uretilengun, uretilenay);
+         System.out.println("Üretilen burc: "+otoburc); 
         System.out.println("\n=== SONUÇ ==="); 
 
         System.out.println("Doğum Tarihi: " + gun + "." + ay); 

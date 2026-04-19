@@ -2,11 +2,23 @@ public class MetodVeriAktarimi {
 
 // 1. metod: Rastgele sayı üretir 
 public static int rastgeleSayiUret() { 
-    int sayi = (int)(Math.random() * 100) + 1; // 1-100 arası 
-    System.out.println("Üretilen sayı: " + sayi); 
+    int sayi = (int)(Math.random() * 10) + 1; // 1-100 arası 
+//    System.out.println("Üretilen sayı: " + sayi); 
     return sayi; 
 } 
- 
+
+public static int rastgelegunUret() { 
+    int sayi = (int)(Math.random() * 30) + 1; // 1-100 arası 
+//    System.out.println("Üretilen sayı: " + sayi); 
+    return sayi; 
+} 
+
+public static int rastgeleayUret() { 
+    int sayi = (int)(Math.random() * 11) + 1; // 1-100 arası 
+//    System.out.println("Üretilen sayı: " + sayi); 
+    return sayi; 
+} 
+
 // 2. metod: Gelen sayının karesini hesaplar 
 public static int kareHesapla(int sayi) { 
     int kare = sayi * sayi; 
